@@ -1,0 +1,95 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: white;
+    background-color: #1db954; /* Spotify green as base */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #17a44d;
+}
+
+/* Section containers */
+.spotify,
+.tiktok,
+.instagram,
+.dirt {
+    margin-bottom: 30px;
+}
+
+/* TikTok specific styling */
+.tiktok button {
+    background-color: #000000;
+}
+
+.tiktok button:hover {
+    background-color: #222222;
+}
+
+/* Instagram button */
+.instagram button {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.instagram button:hover {
+    opacity: 0.85;
+}
+
+/* Image and Text Block */
+.dirt img {
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.dirt p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    .dirt img {
+        width: 80%;
+    }
+}
+
+
+   
